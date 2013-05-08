@@ -1,7 +1,7 @@
 #!/usr/bin/php -q
 <?php
 if($argc < 8)
-    exit("Incorrect syntax : bakeModel.php sgbd host database username password schema folder singularise(Y/N)");
+    exit("Incorrect syntax : bakeModels.php sgbd host database username password schema folder singularise(Y/N)");
 $sgbd = $argv[1];
 $host = $argv[2];
 $database = $argv[3];
